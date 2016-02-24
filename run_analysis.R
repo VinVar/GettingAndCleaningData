@@ -7,11 +7,10 @@
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable 
 #    for each activity and each subject.
 
+# Set working directory to the folder the UCI HAR Dataset is download to.
+
 # load library dplyr for aggregate in step 5
 library("dplyr")
-
-# Set working directory
-setwd("C:/Users/George/Desktop/R/GCD/UCI HAR Dataset")
 
 # Read the training data set from subject_train, X_train, y_train
 subjectTrain <- read.table("train/subject_train.txt", header = FALSE)
