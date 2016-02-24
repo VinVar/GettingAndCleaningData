@@ -16,8 +16,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ## Library
 Please install the **dplyr** library which is needed to run this script. 
   
-## Modifications needed prior to running the script:
-Once the data is downloaded and unzipped, make sure you set the working directory to your folder. For this change line #14 in the script run_analysis.R.
+## Prior to running the script:
+Once the data is downloaded and unzipped, make sure you set the working directory to your UCI HAR Dataset folder.
 
 # Summary
 
