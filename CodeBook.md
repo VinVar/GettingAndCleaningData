@@ -49,6 +49,16 @@ The set of variables that were estimated from these signals for the tidy data ar
 * mean(): Mean value
 * std(): Standard deviation
 
+##Units
+
+* Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
+* The acceleration signal from the smartphone accelerometer in standard gravity units 'g'. 
+
+* The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
+
+* The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
+
 ###1. Merges the training and the test sets to create one data set 
 * Read the training data set from subject_train, X_train, y_train
 * Read the test data set from subject_test, X_test, y_test
